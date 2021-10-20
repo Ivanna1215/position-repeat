@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+.container {
+    width: 1603px;
+    height: 737px;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+}
+.name {
+    font-size: 34px;
+letter-spacing: 5px;
+color: #3c3c3c;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+text-transform: uppercase;
+}
+.text {
+    width: 570px;
+font-size: 16px;
+color: #3c3c3c;
+font-weight: 300;
+font-family: "Lato";
+text-align: center;
+/* border: 2px solid red; */
+margin: 62px auto;
+}
+.main {
+    display: flex;
+    justify-content: space-around ;
+    /* border: 2px solid red; */
+    margin-left: 216px;
+    margin-right: 216px;
+    
+
+}
+.face {
+    width: 271px;
+    height: 271px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px; 
+    /* border: 3px solid red; */
+}
+.element {
+    /* width: 270px; */
+    /* height: 270px; */
+    /* border: 3px solid green; */
+    position: relative;
+}
+.hover-img {
+    width: 271px;
+    height: 271px;
+    background-color: #18B5DC;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    opacity: 0;
+
+}
+
+.hover-img:hover {
+    opacity:1;
+    
+}
+
+.wrap {
+    width: 43px;
+    height: 43px;
+    /* border: 3px solid rgb(219, 16, 16); */
+    background-color:rgba(4, 47, 58, 0.3) ;
+    margin: 2px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* color: violet; */
+    /* transition-duration: 10s; */
+}
+
+.social {
+    margin-right: 0;
+    /* border: 3px solid yellow; */
+    margin: 0 auto;
+}
